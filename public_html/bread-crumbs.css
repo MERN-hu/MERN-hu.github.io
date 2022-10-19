@@ -1,7 +1,9 @@
 #breadCrumbs {
 	list-style-type: none;
+}
+#breadCrumbs > ul > li {
 	display: inline;
 }
-#breadcrumbs > li:has(li) {
-	→
+#breadcrumbs > ul > li:has(+li)::after {
+	content: "→";
 }

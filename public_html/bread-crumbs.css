@@ -2,3 +2,6 @@
 	list-style-type: none;
 	display: inline;
 }
+#breadcrumbs > li:has(li) {
+	→
+}

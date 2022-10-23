@@ -7,3 +7,6 @@
 #breadCrumbs > li:has(+li)::after {
 	content: "→";
 }
+#breadCrumbs:first-child {
+	text-transform: uppercase;
+}

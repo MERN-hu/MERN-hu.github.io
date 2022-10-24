@@ -1,5 +1,6 @@
 #breadCrumbs {
 	list-style-type: none;
+	text-transform: capitalize;
 }
 #breadCrumbs > li {
 	display: inline;
@@ -7,6 +8,6 @@
 #breadCrumbs > li:has(+li)::after {
 	content: "→";
 }
-#breadCrumbs:first-child {
+#breadCrumbs li:first-child {
 	text-transform: uppercase;
 }
